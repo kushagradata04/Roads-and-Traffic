@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Detection Result</title>
+</head>
+<body>
+    <h1>Detection Results</h1>
+    
+    <!-- Display result for the first image -->
+    <div>
+        <img src="{{ url_for('uploaded_file', filename=output_image1.split('/')[-1]) }}" alt="Detected Image 1">
+        <br>
+        <p>Number of vehicles detected in Image 1: {{ vehicle_count1 }}</p>
+    </div>
+    <br>
+    
+    <!-- Display result for the second image -->
+    <div>
+        <img src="{{ url_for('uploaded_file', filename=output_image2.split('/')[-1]) }}" alt="Detected Image 2">
+        <br>
+        <p>Number of vehicles detected in Image 2: {{ vehicle_count2 }}</p>
+    </div>
+    <br>
+    
+    <!-- Display result for the third image -->
+    <div>
+        <img src="{{ url_for('uploaded_file', filename=output_image3.split('/')[-1]) }}" alt="Detected Image 3">
+        <br>
+        <p>Number of vehicles detected in Image 3: {{ vehicle_count3 }}</p>
+    </div>
+    <br>
+    
+    <!-- Display result for the fourth image -->
+    <div>
+        <img src="{{ url_for('uploaded_file', filename=output_image4.split('/')[-1]) }}" alt="Detected Image 4">
+        <br>
+        <p>Number of vehicles detected in Image 4: {{ vehicle_count4 }}</p>
+    </div>
+    <br>
+    
+    <a href="/">Upload another set of images</a>
+</body>
+</html>

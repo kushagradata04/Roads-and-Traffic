@@ -1,0 +1,450 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f0f0f0; */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    /* background-color: white; */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.image-upload {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="file"] {
+    width: 100%;
+    padding: 5px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 20px;
+    text-align: center;
+    color: #333;
+    font-size: 18px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body-container{
+    height: 100%;
+    width: 100%;
+    /* background-image: url(./stock-vector-top-view-of-the-city-urban-crossroads-with-cars-and-houses-pedestrians-background-town-map-370540427.jpg); */
+    padding:100vh;
+    font-size: xx-small;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-image: url(../static/stock-vector-top-view-of-the-city-urban-crossroads-with-cars-and-houses-pedestrians-background-town-map-370540427.jpg); */
+    background-size: cover; /* Ensures the background covers the entire area */
+    background-position: center; 
+    background-size: 60%; 
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.output {
+    width: 200px;  /* Specific width for each image */
+    height: 200px; /* Specific height for each image */
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+
+/* new */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.top-bar {
+    background-color: #004080;
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+   
+}
+
+.top-bar a{
+    color: white;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+.tophead_right {
+    
+    width: auto;
+    float: right;
+    margin: 0px;
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 5px 20px;
+    
+    
+} 
+
+.tophead_right a{
+    color: white;
+    text-decoration: none;
+    text-decoration-color: white;
+    padding: 0px 5px;
+}
+.colorchanger a:first-child {
+    color: black; 
+}
+ .whitebg {
+    background-color: white;
+ }
+ .blackbg 
+ {
+    background-color: black;
+ }
+ 
+
+.search-form input[type="text"] {
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+   font-size: 14px;
+}
+
+.search-form button {
+   
+    padding: 5px 20px;
+    background-color: #003366;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: end;
+} 
+/* .Background img
+{
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1; 
+
+} */
+/* .Background{
+    position: relative;
+} */
+.header-content {
+    background-color: white;
+    color: black;
+    height: min-content;
+    padding: 5px 10px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.separator {
+    font-size: 4rem;
+    color: gray;
+    margin: 0 10px;
+    margin-left: 5px; /* Adjust the space around the vertical bar */
+}
+
+.logo-container img {
+    height: 70px;
+    margin-left: 300px; 
+}
+
+.header-content h2 {
+    margin-left: 8px; /* Reduced margin */
+    margin-right: 10px; /* Adjust space before the vertical bar */
+}
+
+
+.g20-logo img {
+    height: 90px;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+}
+
+.title h1 {
+    font-size: 1.8rem;
+    color: black;
+    text-align: left;
+    margin-left: 30px;
+}
+.title h3{
+    color: gray;
+    font-size: 1.8rem;
+    text-align: left;
+    margin-left: 30px;
+}
+
+nav {
+    background-color: #002855;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+nav ul li{
+    display: inline;
+    position: relative;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px 20px;
+    
+}
+nav ul li::after {
+    content: "|";
+    color: white;
+    height: 80px; 
+    margin: 0 5px;
+    line-height: 20px;
+    
+}
+nav ul li:last-child::after {
+    content: ""; /* Remove the bar after the last item */
+}
+nav ul li a:hover {
+    background-color: #004080;
+    border-radius: 5px;
+}
+
+.bg {
+    display: block;
+    background-image: url('backgrnd.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 1; /* Background will be behind the login box */
+}
+.login-container {
+    background-image: url('path/to/background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 200px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    /* z-index: 2; */
+}
+.login-head{
+    background-color: #004080;
+    height: 20px;
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    position: relative;
+    top: -20px; /* Position it slightly above the box */
+    left: 0;
+    /* z-index: 2; */
+    
+}
+.login-head h2{
+    margin-top: 20px;
+    
+}
+
+.login-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+}
+
+.login-icon {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+.login-box label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+}
+
+.login-box input[type="text"] {
+    width: calc(100% - 12px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.captcha-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.captcha-container img.captcha-img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.login-box button {
+    background-color: #004080;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.ft {
+    display: flex;
+    justify-content: space-around;
+    background-color: #002855;
+    color: #fff;
+    padding: 20px 0;
+    z-index: 2;
+    /* position: fixed; */
+    width: 100%;
+    bottom: 0;
+    height: 160px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    padding-bottom: 20px;
+    /* border-bottom: 1px solid #ccc; */
+}
+.footer-section {
+    position: relative;
+    padding: 0 15px;
+}
+.footer-section::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    background-color: grey;
+}
+
+.footer-section:last-child::after {
+    display: none; /* Remove the bar after the last section */
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+
+
